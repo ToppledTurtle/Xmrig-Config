@@ -1,15 +1,18 @@
 {
     "autosave": true,
-    "donate-level": 0,
     "cpu": true,
     "opencl": false,
     "cuda": false,
     "pools": [
         {
             "coin": "monero",
-            "url": "xmr-eu1.nanopool.org:14433",
+            "algo": null,
+            "url": "gulf.moneroocean.stream:10128",
             "user": "47u7C9eW1rydCAksuejNt7ZEQXcYAuPjgKbM3grUQHpXJodGB1QkYEvAQ1jnfnmZvna9DAYZCf9mqWNJ2cvLna8oBa3Gwu5",
-            "tls": true
+            "pass": "x",
+            "tls": false,
+            "keepalive": true,
+            "nicehash": false
         }
     ]
 }
